@@ -1,0 +1,196 @@
+.embed {
+	border-radius: 10px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 4px #888888;
+	margin:30px;
+}
+
+.page-list a {
+	text-decoration: none;
+}
+
+.page-list h3 {
+	font-size: 1rem;
+}
+
+.su-subpages a {
+text-decoration:none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: lightgray;
+  color: #000;
+  text-align: left;
+  border-radius: 2%;
+  padding: 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+table {
+	width: auto;
+  }
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+.slideshow {
+	position: relative;
+	overflow: hidden;
+    padding-bottom: 75%;
+}
+
+.slideshow iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.video {
+	position: relative;
+	overflow: hidden;
+    padding-bottom: 75%;
+	width: 100%;
+	margin: auto;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+
+.page-embed {
+	position: relative;
+	overflow: hidden;
+    padding-bottom: 140%;
+}
+
+.page-embed iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+@media only screen and (max-width: 500px) {
+#post-1476 li > ul {
+margin-left: 0;
+}	
+}
+
+h2.calendar {
+	  background-color: #eee;
+    padding: 10px;
+    width: fit-content;
+	  border-radius: 5px;
+	  box-shadow: 2px 2px 5px lightgray;
+}
+
+h3.calendar {
+	padding-left: 1em;
+	padding-top: 2ex;
+	text-decoration: underline;
+	text-decoration-color: #ccc;
+	
+}
+
+li li {
+	list-style-type: circle;
+}
+
+.wp-post-image {
+	border-radius: 20px;
+	box-shadow: 2px 2px 6px gray;
+}
+
+main article a {
+	padding: 5px;
+}
+
+.wpd-comment-author a {
+	padding: 2px;
+}
+
+.wpd-thread-wrapper, .wpd-form-wrap {
+	width: 90%;
+	margin: auto;
+}
+
+main article a:hover, .wpd-comment-author a:hover {
+	text-decoration: none;
+	background-color: #fee;
+	box-shadow: 2px 2px 6px #bbb;
+}
+
+.wp-post-image-link:hover{
+	background-color: white;
+	box-shadow: none;
+}
+
+.fbc-items a{
+	padding: 5px;
+}
+
+.fbc-items a:hover{
+	text-decoration: none;
+	background-color: #ddd;
+}
+
+@media(min-width: 700px) {
+	
+	.nav-previous, .nav-next, .archive-header {
+	background: none !important;
+}
+	
+	article {
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px gray;
+}
+
+.comments-area {
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px gray;
+}
+
+.widget-area section {
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px gray;
+}
+}
+
+.embedly-card-hug {
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px gray;
+	padding: 10px !important;
+	margin: 30px auto !important;
+}
+
+.hot-random-image {
+border-radius: 10px;
+}
+
