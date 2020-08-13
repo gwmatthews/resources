@@ -71,7 +71,11 @@ th, td {
 	position: relative;
 	overflow: hidden;
     padding-bottom: 75%;
+<<<<<<< HEAD
 	width: 100%;
+=======
+	width: 75%;
+>>>>>>> 21478572deb776f5bee549ce4ead3b744d4cf31c
 	margin: auto;
 }
 
