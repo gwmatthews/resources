@@ -71,11 +71,8 @@ th, td {
 	position: relative;
 	overflow: hidden;
     padding-bottom: 75%;
-<<<<<<< HEAD
 	width: 100%;
-=======
 	width: 75%;
->>>>>>> 21478572deb776f5bee549ce4ead3b744d4cf31c
 	margin: auto;
 }
 
@@ -100,11 +97,13 @@ th, td {
   left: 0; top: 0;
 }
 
-@media only screen and (max-width: 500px) {
-#post-1476 li > ul {
+@media only screen and (max-width: 700px) {
+ul.children {
 margin-left: 0;
 }	
 }
+
+
 
 h2.calendar {
 	  background-color: #eee;
