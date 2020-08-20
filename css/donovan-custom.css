@@ -72,7 +72,9 @@ th, td {
 	overflow: hidden;
   padding-bottom: 75%;
   border-radius: 20px;
-  box-shadow: 2px 2px 6px #bbb;
+  box-shadow: 4px 4px 6px #999;
+  width: 80%;
+  margin: auto;
 }
 
 .video iframe {
