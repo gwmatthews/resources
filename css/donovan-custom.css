@@ -86,9 +86,6 @@ th, td {
   
 }
 
-
-
-
 .page-embed {
 	position: relative;
 	overflow: hidden;
@@ -229,3 +226,7 @@ main article a:hover, .wpd-comment-author a:hover {
     margin-bottom: 15px;
 }
 
+.emoji {
+  
+  font-size: 150%;
+}
