@@ -71,10 +71,10 @@ th, td {
 .video {
 	position: relative;
 	overflow: hidden;
-  padding-bottom: 18%;
+  padding-bottom: 50%;
   border-radius: 20px;
   box-shadow: 4px 4px 6px #999;
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
