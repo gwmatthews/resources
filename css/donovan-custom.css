@@ -228,6 +228,6 @@ main article a:hover, .wpd-comment-author a:hover {
 }
 
 
-.subpages-page-list, .children{
+.subpages-page-list, .children, .su-subpages{
   list-style-type: none;
 }
