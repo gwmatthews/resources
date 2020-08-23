@@ -230,3 +230,8 @@ main article a:hover, .wpd-comment-author a:hover {
   
   font-size: 150%;
 }
+
+
+.subpages-page-list, .children{
+  list-style-type: none;
+}
