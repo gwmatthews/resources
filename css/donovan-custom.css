@@ -231,3 +231,16 @@ main article a:hover, .wpd-comment-author a:hover {
 .subpages-page-list, .children, .su-subpages{
   list-style-type: none;
 }
+
+
+.infobox {
+
+margin: 20px auto;
+padding: 20px;
+max-width: 80%;
+background-color: #fed;
+border-radius: 15px;
+border: 2px solid gray;
+box-shadow: 2px 2px 7px lightgray;
+
+}
