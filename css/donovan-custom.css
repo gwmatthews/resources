@@ -1,8 +1,8 @@
 .embed {
 	border-radius: 10px;
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 2px 4px #888888;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 4px #888888;
 	margin:30px;
 }
 
@@ -15,43 +15,44 @@
 }
 
 .su-subpages a {
-text-decoration:none;
+    text-decoration:none;
 }
 
 .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 350px;
-  background-color: lightgray;
-  color: #000;
-  text-align: left;
-  border-radius: 2%;
-  padding: 10px;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
+    visibility: hidden;
+    width: 350px;
+    background-color: lightgray;
+    color: #000;
+    text-align: left;
+    border-radius: 2%;
+    padding: 10px;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+    visibility: visible;
 }
 
 
 table {
 	width: auto;
-  }
+}
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 th, td {
-  padding: 15px;
-  text-align: left;
+    padding: 15px;
+    text-align: left;
 }
 
 .slideshow {
@@ -61,29 +62,28 @@ th, td {
 }
 
 .slideshow iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
 }
 
 
 .video {
 	position: relative;
 	overflow: hidden;
-  padding-bottom: 50%;
-  border-radius: 20px;
-  box-shadow: 4px 4px 6px #999;
-  width: 80%;
-  margin: auto;
+    padding-bottom: 50%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px #999;
+    width: 80%;
+    margin: auto;
 }
 
 .video iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
-  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0; 
 }
 
 .page-embed {
@@ -93,44 +93,35 @@ th, td {
 }
 
 .page-embed iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
 }
 
 .audio {
 	position: relative;
 	overflow: hidden;
-  padding-bottom: 18%;
-  border-radius: 20px;
-  box-shadow: 4px 4px 6px #999;
-  width: 60%;
-  margin: auto;
+    padding-bottom: 18%;
+    border-radius: 20px;
+    box-shadow: 4px 4px 6px #999;
+    width: 60%;
+    margin: auto;
 }
 
 .audio iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; top: 0;
-  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;  
 }
-
-@media only screen and (max-width: 700px) {
-ul.children {
-margin-left: 0;
-}	
-}
-
-
 
 h2.calendar {
-	  background-color: #eee;
+	background-color: #eee;
     padding: 10px;
     width: fit-content;
-	  border-radius: 5px;
-	  box-shadow: 2px 2px 5px lightgray;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px lightgray;
 }
 
 h3.calendar {
@@ -179,28 +170,6 @@ main article a:hover, .wpd-comment-author a:hover {
 	background-color: #ddd;
 }
 
-@media(min-width: 700px) {
-	
-	.nav-previous, .nav-next, .archive-header {
-	background: none !important;
-}
-	
-	article {
-	border-radius: 10px;
-	box-shadow: 2px 2px 6px gray;
-}
-
-.comments-area {
-	border-radius: 10px;
-	box-shadow: 2px 2px 6px gray;
-}
-
-.widget-area section {
-	border-radius: 10px;
-	box-shadow: 2px 2px 6px gray;
-}
-}
-
 .embedly-card-hug {
 	border: 1px solid gray;
 	border-radius: 10px;
@@ -223,24 +192,53 @@ main article a:hover, .wpd-comment-author a:hover {
 }
 
 .emoji {
-  
-  font-size: 150%;
+    font-size: 150%;
 }
-
 
 .subpages-page-list, .children, .su-subpages{
-  list-style-type: none;
+    list-style-type: none;
 }
-
 
 .infobox {
-
-margin: 20px auto;
-padding: 20px;
-max-width: 80%;
-background-color: #fed;
-border-radius: 15px;
-border: 2px solid gray;
-box-shadow: 2px 2px 7px lightgray;
-
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    background-color: #fed;
+    border-radius: 15px;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 7px lightgray;
 }
+
+.comment-content p {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    ul.children {
+        margin-left: 0;
+    }	
+}
+
+
+@media(min-width: 700px) {
+	
+	.nav-previous, .nav-next, .archive-header {
+    	background: none !important;
+    }
+	
+	article {
+    	border-radius: 10px;
+    	box-shadow: 2px 2px 6px gray;
+    }
+
+    .comments-area {
+	    border-radius: 10px;
+	    box-shadow: 2px 2px 6px gray;
+    }
+
+    .widget-area section {
+	    border-radius: 10px;
+	    box-shadow: 2px 2px 6px gray;
+    }
+}
+
