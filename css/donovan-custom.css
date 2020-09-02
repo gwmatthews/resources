@@ -156,6 +156,11 @@ main article a:hover, .wpd-comment-author a:hover {
 	box-shadow: 2px 2px 6px #bbb;
 }
 
+.wpd-comment-text p {
+
+    text-indent: 2em each-line;
+}
+
 .wp-post-image-link:hover{
 	background-color: white;
 	box-shadow: none;
