@@ -265,7 +265,7 @@ padding: 2rem;
 
 }
 
-.this-section-footer * {
+.this-section-footer {
 display: flex;
 justify-content: space-between;
 }
