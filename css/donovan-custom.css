@@ -214,6 +214,17 @@ main article a:hover, .wpd-comment-author a:hover {
     box-shadow: 2px 2px 7px lightgray;
 }
 
+.infobox ul {
+list-style-type: none;
+}
+
+.infobox ul>li {
+
+font-weight: bold;
+
+}
+
+
 .comment-content p {
     padding: 20px;
 }
