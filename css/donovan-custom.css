@@ -221,6 +221,7 @@ list-style-type: none;
 .date-list>li {
 
 font-weight: bold;
+padding-top: 15px;
 
 }
 
