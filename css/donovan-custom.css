@@ -235,11 +235,11 @@ list-style-type: none;
         margin-left: 0;
     }
 
-    infobox {
+    .infobox {
         padding: 5px;
         margin: 5px auto;
         max-width: 100%;
-        box-shadow: 2px 2px 7px red;
+        box-shadow: none;
     }
 }
 
