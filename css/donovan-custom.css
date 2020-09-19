@@ -283,7 +283,7 @@ list-style-type: none;
     background-color: #eee;
     padding: 10px;
     border-radius: 15px;
-    border: 3px dashed lightsteelblue;
+    border: 1px dashed lightsteelblue;
     box-shadow: 2px 2px 6px gray;
 }
 
@@ -300,9 +300,9 @@ justify-content: space-around;
 
 .stats-tabs .tab {
 text-align: center;
-padding: 5px;
-background: #ddd;
-border-radius: 10px;
-    box-shadow: 2px 2px 6px gray;
+padding: 15px;
+background: #fff;
+border-radius: 20px;
+border: 2px bevel lightgray;
 
 }
