@@ -280,9 +280,10 @@ list-style-type: none;
 
 
 .stats-container{
-    background-color: lightsteelblue;
+    background-color: rgb(207, 225, 250);
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 15px;
+    border: 3px dashed lightsteelblue;
     box-shadow: 2px 2px 6px gray;
 }
 
@@ -295,7 +296,7 @@ justify-content: space-around;
 text-align: center;
 padding: 5px;
 background: #ddd;
-border-radius: 5%;
+border-radius: 10px;
     box-shadow: 2px 2px 6px gray;
 
 }
