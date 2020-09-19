@@ -279,4 +279,23 @@ list-style-type: none;
 }
 
 
+.stats-container{
+    background-color: lightsteelblue;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 6px gray;
+}
 
+.stats-tabs{
+display: flex;
+justify-content: space-around;
+}
+
+.stats-tabs .tab {
+text-align: center;
+padding: 5px;
+background: #ddd;
+border-radius: 5%;
+    box-shadow: 2px 2px 6px gray;
+
+}
