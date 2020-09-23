@@ -296,6 +296,7 @@ list-style-type: none;
 .stats-tabs{
 display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 
 .stats-tabs .tab {
