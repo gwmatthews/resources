@@ -301,8 +301,7 @@ justify-content: space-around;
 .stats-tabs .tab {
 text-align: center;
 padding: 15px;
-background: #dee;
 border-radius: 20px;
-border: 2px bevel lightgray;
+box-shadow: 1px 1px 4px gray;
 
 }
