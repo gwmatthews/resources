@@ -308,6 +308,9 @@ list-style-type: none;
 
 }
 
-.adroll-block {
+iframe[*src="afr.php"] {
     display: none;
 }
+
+
+
