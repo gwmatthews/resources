@@ -294,16 +294,20 @@ list-style-type: none;
 }
 
 .stats-tabs{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .stats-tabs .tab {
-text-align: center;
-padding: 10px;
-border-radius: 10px;
-box-shadow: 1px 1px 4px gray;
-margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px gray;   
+    margin: 10px;
 
+}
+
+.adroll-block {
+    display: none;
 }
