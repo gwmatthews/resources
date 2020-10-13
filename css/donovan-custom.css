@@ -308,7 +308,7 @@ list-style-type: none;
 
 }
 
-div[id*="google"] {
+iframe[src*="delivery"] {
     display: none;
 }
 
