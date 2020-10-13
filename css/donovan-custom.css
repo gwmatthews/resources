@@ -308,7 +308,7 @@ list-style-type: none;
 
 }
 
-#ad4e761c {
+div[id*="google"] {
     display: none;
 }
 
