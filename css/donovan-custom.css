@@ -100,6 +100,19 @@ th, td {
     left: 0; top: 0;
 }
 
+.article-embed {
+	position: relative;
+	overflow: hidden;
+    padding-bottom: 140%;
+}
+
+.article-embed iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0; top: 0;
+}
+
 .audio {
 	position: relative;
 	overflow: hidden;
