@@ -152,7 +152,7 @@ h3.calendar {
 }
 
 .wp-block-image img{
-	border-radius: 20px;
+	border-radius: 20px !important;
 	box-shadow: 2px 2px 6px gray;
 }
 
